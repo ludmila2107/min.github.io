@@ -1,0 +1,29 @@
+input {
+	outline:none;
+    color:brown;
+}
+
+div {
+	margin:10px 0;
+	text-align:center;
+    color: rgb(52, 144, 230);
+}
+
+	div label {
+		margin:0 10px 0 0;
+        color: brown;
+	}
+
+	div input[type=text] {
+		padding:6px 10px;
+		border-radius:10px;
+		border:1px solid #4e0b26;
+	}
+	
+	div input[type=button] {
+		padding:6px 10px;
+		border-radius:10px;
+		font-size:16px;
+		border:1px solid #4e0b26;
+		cursor:pointer;
+	}

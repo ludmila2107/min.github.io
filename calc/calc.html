@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Страница</title>
+	<link rel="stylesheet" href="calc.css" type="text/css" />
+	<SCRIPT type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></SCRIPT>
+	<script type="text/javascript" src="calc.js"></script>
+</head>
+<body>
+	<form>
+		<div><label>Первое число:</label><input type="text" name="first" placeholder="Введите число"/></div>
+		<div><label>Второе число:</label><input type="text" name="second" placeholder="Введите число"/></div>
+		<div><label>Выберите действие:</label>
+			<select name="action">
+				<option>+</option>
+				<option>-</option>
+				<option>*</option>
+				<option>/</option>
+			</select>
+		</div>
+		<div><input type="button" name="send" value="Рассчитать"/></div>
+		<div><label>Результат:</label><input type="text" name="result" placeholder="Ответ"/></div>
+	</form>
+</body>
+</html>

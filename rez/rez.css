@@ -1,0 +1,42 @@
+body{
+    font-size: 18px;
+}
+
+
+.text:hover{
+    color: rgb(128, 54, 28);
+
+  
+}
+.title{
+    background-color: rgb(245, 239, 233);
+    width: 340px;
+}
+.title-name{
+    background-color: rgb(245, 239, 233);
+    width: 300px;
+}
+.title-name:hover{
+    position: relative;
+    top: 5px;
+    font-size: 20px;
+}
+.aside{
+width: 300px;
+background-color: rgb(229, 240, 219);
+padding: 20px;
+text-align: center;
+}
+.block{
+    display:flex;
+    width: 960px;
+    
+}
+.social-icon:hover{
+    position:relative;
+    bottom: 5px;
+}
+.stady:hover{
+    font-size: 20px;
+
+}

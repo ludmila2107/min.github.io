@@ -1,0 +1,53 @@
+body {
+    color: #4378c9;
+}
+button {
+    display: block;
+    border: none;
+    background: transparent;
+}
+h1, h2, h3, h4, h5, h6{
+    color:tomato;
+}
+.btn{
+    background: #4378c9;
+    color: aqua;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 17px 30px;
+    display: inline;
+    border-radius: 0;
+    letter-spacing: 0.3em;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+.btn:hover{
+    background: cornflowerblue;
+    color: crimson;
+}
+.header{
+}
+.nav{
+    padding-top: 150px;
+    margin-bottom: 127px;
+}
+.logo{
+}
+.search {
+background:transparent;
+border: none;
+
+}
+.menu {
+    background:transparent;
+    border: none;
+}
+.offer-cont_title {
+    font-size: 60px;
+}
+.hero{
+    background: url('.../img/img1.jpg') no-repeat right top;
+    width: 700px;
+    height: 840px;
+}
